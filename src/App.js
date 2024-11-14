@@ -5,15 +5,13 @@ import { Earphones, Headphones, Home, Speakers, ProductDetails } from "./pages";
 
 function App() {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/earphones" element={<Earphones />} />
-        <Route path="/headphones" element={<Headphones />} />
-        <Route path="/speakers" element={<Speakers />} />
-        <Route path="/:productId" element={<ProductDetails />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/earphones" element={<Earphones />} />
+      <Route path="/headphones" element={<Headphones />} />
+      <Route path="/speakers" element={<Speakers />} />
+      <Route path="/:productId" element={<ProductDetails />} />
+    </Routes>
   );
 }
 
