@@ -16,7 +16,7 @@ import product2 from "../assets/shared/desktop/image-xx59-headphones.jpg";
 import product3 from "../assets/shared/desktop/image-zx9-speaker.jpg";
 
 const ProductDetails = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <div>
