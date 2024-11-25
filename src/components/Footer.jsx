@@ -1,8 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-
 import { navLinks } from "../components/Navbar";
-
 import logo from "../assets/shared/desktop/logo.svg";
 import facebook from "../assets/shared/desktop/icon-facebook.svg";
 import twitter from "../assets/shared/desktop/icon-twitter.svg";
