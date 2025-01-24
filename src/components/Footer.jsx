@@ -5,6 +5,7 @@ import logo from "../assets/shared/desktop/logo.svg";
 import facebook from "../assets/shared/desktop/icon-facebook.svg";
 import twitter from "../assets/shared/desktop/icon-twitter.svg";
 import instagram from "../assets/shared/desktop/icon-instagram.svg";
+
 const socialIcons = [facebook, twitter, instagram];
 
 const Footer = () => {
